@@ -1,0 +1,40 @@
+
+/* ################################################################
+*  Path: /(other)/admin + role = ADMIN
+*  ################################################################ */
+// TABLE ######################################################
+.table-class{
+	border: 1px solid #000;
+	
+	th {
+		vertical-align: middle;
+		text-align: center;
+		border: 1px solid #000;
+	}
+	td {
+		vertical-align: middle;
+		text-align: center;
+		border: 1px solid #000;
+	}
+}
+
+
+
+/* ################################################################
+*  Path: /(other)/[name]
+*  ################################################################ */
+.old-price {
+	// font-size: 24px;
+	position: relative;
+	color: #4b4b4b;
+	text-decoration: none;
+  	font-weight: 100;
+}
+.old-price:before {
+	content: "";
+	border-bottom: 3px solid red;
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	transform: rotate(12deg);
+}

@@ -1,0 +1,189 @@
+
+  
+// Loyalty ############################################################################
+.loyalty{
+	@media (min-width: 768px) {
+	    padding-top: 20px;
+	    padding-bottom: 60px;
+	}
+	&__card{
+	    max-width: 280px;
+	    height: 150px;
+	    background-color: #363636;
+	    border-radius: 20px;
+	    margin: auto;
+	    position: relative;
+	    @media (min-width: 576px) {
+		   max-width: 350px;
+		   height: 190px;
+	    }
+	}
+	&__logo{
+	    position: absolute;
+	    top: 10px;
+	    left: 10px;
+	    width: 70px;
+	    height: auto;
+	    @media (min-width: 576px) {
+		 width: 80px;
+	    }
+	}
+	&__logo2{
+	    position: absolute;
+	    top: 10px;
+	    right: 10px;
+	    width: 40px;
+	    height: auto;
+	    @media (min-width: 576px) {
+		 width: 50px;
+	    }
+	}
+	&__text{
+	    position: absolute;
+	    top: 40%;
+	    left: 20px;
+	    font-size: 24px;
+	    color: white;
+	    @media (min-width: 576px) {
+		 font-size: 29px;
+	    }
+	}
+	&__col-mar{
+	    margin-top: 40px;
+	    @media (min-width: 768px) {
+		 margin-top: 0;
+	    }
+	}
+	&__h2{
+	    font-size: 22px;
+	    @media (min-width: 576px) {
+		 font-size: 24px;
+	    }
+	}
+	&__desc{
+	    font-size: 14px;
+	    text-align: justify;
+	    @media (min-width: 576px) {
+		 font-size: 19px;
+	    }
+	}
+	&__wrapper2{
+	    width: 90%;
+	    margin: auto;
+	}
+ }
+   
+ 
+
+/* Главный Баннер ####################################### */
+.banner{
+	@media (min-width: 768px) {
+	    // min-height: 380px;
+	}
+	@media (min-width: 992px) {
+	    // min-height: 470px;
+	}
+	@media (min-width: 1200px) { 
+	    // min-height: 550px;
+	}
+	@media (min-width: 1400px) {
+	    // min-height: 590px;
+	}
+	background: rgb(248,248,250);
+	background: radial-gradient(circle, rgba(248,248,250,1) 0%, rgba(192,194,195,1) 100%);
+	// min-height: 500px;
+   
+	&__row{
+	    @media (min-width: 576px) {
+		 padding: 100px 0 100px 0;
+	    }
+	    padding: 70px 0 60px 0;
+	    @media (min-width: 768px) {
+		   padding: 70px 0 70px 0;
+	    }
+	    @media (min-width: 992px) {
+		 padding: 100px 0 70px 0;
+	    }
+	    @media (min-width: 1200px) { 
+		   padding: 120px 0 70px 0;
+	    }
+	}	
+   }
+   
+
+
+/* Goods ############################################    */
+.goods{
+	&__motion-block{
+		text-align: center;
+		width: 100%;
+		padding: 25px;
+	}
+	&__image{
+		height: auto;
+		width: auto;
+		max-width: 100%;
+		max-height: 100%;
+	}
+}
+
+
+
+// .wrap_color-input{
+// 	// width: 100%	;
+// 	// height: auto;
+//     justify-content: space-between;
+//     // background-color: aqua;
+//     display: flex
+// ;
+// }
+// .color-input{
+// 	width: 30%;
+//     // background-color: rgb(37 33 33);
+//     margin: 4px;
+// }
+// &__spin-wrapper{
+// 	padding: 12px;
+// }
+
+
+
+/* ################################################################
+*  Path: /(other)/admin + role = ADMIN
+*  ################################################################ */
+// TABLE ######################################################
+.table-class{
+	border: 1px solid #000;
+	
+	th {
+		vertical-align: middle;
+		text-align: center;
+		border: 1px solid #000;
+	}
+	td {
+		vertical-align: middle;
+		text-align: center;
+		border: 1px solid #000;
+	}
+}
+
+
+
+/* ################################################################
+*  Path: /(other)/[name]
+*  ################################################################ */
+.old-price {
+	// font-size: 24px;
+	position: relative;
+	color: #4b4b4b;
+	text-decoration: none;
+  	font-weight: 100;
+}
+.old-price:before {
+	content: "";
+	border-bottom: 3px solid red;
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	transform: rotate(12deg);
+}
