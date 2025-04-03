@@ -1,9 +1,10 @@
 'use client'
 import { Divider, Typography } from "antd"
 // import * as configuration from '@/config/config';
-import { TCommonConfig } from '@/lib/types/cardsTypes';
+// import { TCommonConfig } from '@/lib/types/cardsTypes';
 
-export default function SeoTextModule({ name, productConfig }: { name: string, productConfig: TCommonConfig }) {
+export default function SeoTextModule() {
+// export default function SeoTextModule({ name, productConfig }: { name: string, productConfig: TCommonConfig }) {
 
 	const { Title, Text } = Typography
 
