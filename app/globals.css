@@ -3,7 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primary-color: #d3a1bf;
+  --primary-color: #45aece;
+  /* --primary-font-color: #171717; */
+	/* --primary-font-hover: #242424; */
 }
 
 @theme inline {

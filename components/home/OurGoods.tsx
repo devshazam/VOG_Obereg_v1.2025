@@ -4,18 +4,30 @@ import { Col, Row, Typography} from 'antd';
 import { motion } from "framer-motion";
 
 
-const ARROFSVG = [['vizitki', '/vizitki', 'Визитки', 'изготовление визиток'], 
-                  ['plackaty', '/banner', 'Банеры', 'изготовление баннеров'],
-                  ['naklejki', '/samokleyki', 'Самоклейки', 'изготовление наклеек'],
-                  ['listovki', '/posterka', 'Постеры', 'изготовление постеров'],
-                  ['broshjury', '/broschurovka', 'Брошюры', 'изготовление брошюр'], 
-                  ['buklety', '/cherteji', 'Чертежи', 'копирование чертежей'], 
-                  ['flaery', '/photopechat', 'Печать', 'печать на бумаге'],
-                  ['priglashenija', '/laminacia', 'Ламинация', 'ламинирование'],
-                  ['otkrytki', '/raspechatka', 'Распечатка', 'изготовление открыток'],
-                  ['pakety', '/plastik', 'Пластик', 'печать на пластике'],
-                  ['katalogi', '/rizograf', 'Ризограф', 'печать на ризографе'],
-                  ['prezentacii', '/holsty', 'Холст', 'изготовление презентации'],
+const ARROFSVG = [
+	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
+	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
+	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
+	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
+	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
+	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
+	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
+	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
+	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
+	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
+	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
+	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
+               //    ['plackaty', '/banner', 'Банеры', 'изготовление баннеров'],
+               //    ['naklejki', '/samokleyki', 'Самоклейки', 'изготовление наклеек'],
+               //    ['listovki', '/posterka', 'Постеры', 'изготовление постеров'],
+               //    ['broshjury', '/broschurovka', 'Брошюры', 'изготовление брошюр'], 
+               //    ['buklety', '/cherteji', 'Чертежи', 'копирование чертежей'], 
+               //    ['flaery', '/photopechat', 'Печать', 'печать на бумаге'],
+               //    ['priglashenija', '/laminacia', 'Ламинация', 'ламинирование'],
+               //    ['otkrytki', '/raspechatka', 'Распечатка', 'изготовление открыток'],
+               //    ['pakety', '/plastik', 'Пластик', 'печать на пластике'],
+               //    ['katalogi', '/rizograf', 'Ризограф', 'печать на ризографе'],
+               //    ['prezentacii', '/holsty', 'Холст', 'изготовление презентации'],
                 ];
 
 				
@@ -24,7 +36,7 @@ export default function OurGoods() {
 					
   	return (
         <>
-          <Title  level={2}>Наша продукция:</Title>
+          <Title  level={2}>Включено в стоимость:</Title>
           <Row gutter={16}>
             {
               ARROFSVG.map((item: string[], index: number) => {return (
@@ -32,12 +44,12 @@ export default function OurGoods() {
                       <motion.div className="goods__motion-block"
                         whileHover={{ scale: 1.1 }}
                         transition={{ type: "spring", stiffness: 400, damping: 10 }}>
-                          <a href={item[1]}>
-                            <Text>{item[2]}</Text>
+                          {/* <a href={item[1]}> */}
+                            <p style={{fontSize:'11px'}}>{item[2]}</p>
                             <div className="template__img-wrap">
-                              <img src={`/pechst-items/${item[0]}.svg`} alt={item[3]}  className="goods__image" />
+                              <img src={`/good${item[0]}.png`} alt={item[3]}  className="goods__image" />
                             </div>
-                          </a>
+                          {/* </a> */}
                       </motion.div>
                   </Col>
               );

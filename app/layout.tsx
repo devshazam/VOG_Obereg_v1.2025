@@ -36,16 +36,16 @@ export default function RootLayout({
 			<ConfigProvider
 				theme={{
 				token: {
-					colorPrimary: '#d3a1bf',
+					colorPrimary: '#45aece',
 					borderRadius: 2,
 					colorTextBase: '#242424',
 					fontFamily: 'inherit',
 					fontWeightStrong: 600,
-					fontSize: 16,
+					fontSize: 14,
 					// lineWidth: 600,
 					colorBorder: '#8b8b8b',
 					colorTextPlaceholder: '#afafaf',
-					colorLink: '#d3a1bf',
+					colorLink: '#45aece',
 					colorFillTertiary: '#a3a2a2', // Цвет слайдера
 				},
 				components: {
@@ -55,8 +55,8 @@ export default function RootLayout({
 					},
 					Slider: {
 					railBg: '#8b8b8b',
-					trackHoverBg: '#d3a1bf',
-					trackBg: '#d3a1bf',
+					trackHoverBg: '#45aece',
+					trackBg: '#45aece',
 					},
 				},
 				}}

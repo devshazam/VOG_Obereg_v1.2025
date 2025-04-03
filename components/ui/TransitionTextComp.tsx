@@ -5,7 +5,7 @@ import TextTransition, { presets } from 'react-text-transition';
 import { Typography } from 'antd';
 
 const { Title } = Typography;
-const titleArray = ['Пансионат', 'Дом', 'Отдых'];
+const titleArray = ['Пансионат', 'Радушный дом', 'Спокойный отдых'];
 
 
 export default function TransitionTextComp() {

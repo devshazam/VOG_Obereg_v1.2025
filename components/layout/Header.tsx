@@ -21,17 +21,17 @@ const items: MenuItem[] = [
 {
 	label: <a href="/#poligrafia">Услуги</a>,
     key: 'kopirovanie',
-    icon: <AuditOutlined />,
+    icon: <ReadOutlined />,
   },
   {
     label: <a href="/#poligrafia">Фотографии</a>,
     key: 'pechat',
-    icon: <PrinterOutlined />,
+    icon: <ReadOutlined />,
   },
   {
     label: <a href="/#poligrafia">Цены</a>,
     key: 'izdeliya',
-    icon: <FormatPainterOutlined />,
+    icon: <ReadOutlined />,
   },
 ];
 
@@ -57,17 +57,19 @@ export default function Header() {
                         <Col  xs={14} md={4}>
                           <div className="flex justify-start items-center w-full h-full"	>
                             <a href='/'>
-                              <Image src={Logo} width={30} height={30} className='header__logo' alt='Полиграфия в Волгограде'/>
+                              <Image src={Logo} className='header__logo' alt='Полиграфия в Волгограде'/>
                             </a>
                           </div>
                         </Col>
 
-                        <Col span={16} className='!hidden md:!block'>
-                          <Menu mode="horizontal" items={items}/>
+                        <Col span={17} className='!hidden md:!block'>
+				    		<div className="flex items-center h-full w-full">
+                          		<Menu mode="horizontal" items={items} className='w-full'/>
+						</div>
                         </Col>
-                        <Col  span={4} className='!hidden md:!block'>
+                        <Col  span={3} className='!hidden md:!block'>
                           <Flex align="center" className='w-full h-full' justify='end'>
-                            <AdminButton/>
+                            г.Волгоград
                           </Flex>
                         </Col>
 						<Col  span={10} className=' md:!hidden'>
@@ -79,11 +81,11 @@ export default function Header() {
 							
 							<Drawer title="Меню" onClose={onClose} open={open}>
 								<Menu mode="inline" items={items}/>
-								<div className="mt-4">
+								{/* <div className="mt-4">
 									<Flex align="center" className='w-full' justify='center'>
 										<AdminButton/>
 									</Flex>
-								</div>
+								</div> */}
 							</Drawer>
                         </Col>
                       </Row>
