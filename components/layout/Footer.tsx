@@ -49,7 +49,10 @@ export default function Footer() {
               </div>
             </Col>
           </Row>
-        <Text>© 2011 - { new Date().getFullYear() } Полиграфия в Волгограде. Все права защищены</Text>
+		<div className="flex justify-between flex-wrap ">
+        		<Text>© 2011 - { new Date().getFullYear() } Пансионат в Волгограде. Все права защищены</Text>
+			   <Text><a href='https://github.com/devshazam' target='_blank'>разработка сайта</a></Text>
+		</div>
         </div>
         </div>
       </footer>

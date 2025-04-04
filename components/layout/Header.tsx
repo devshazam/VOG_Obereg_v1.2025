@@ -6,7 +6,8 @@ import type { MenuProps } from 'antd';
 import Image from 'next/image';
 import AdminButton from '../ui/AdminButton';
 import { AuditOutlined, PrinterOutlined, FormatPainterOutlined, ReadOutlined } from '@ant-design/icons';
-import Logo from '../../public/logo.svg';
+// import Logo from '../../public/logo.svg';
+import Logo from '../../public/logo.webp';
 import {MenuOutlined} from '@ant-design/icons';
 
 
@@ -55,11 +56,16 @@ export default function Header() {
                   <div className="template__wrapper">
                       <Row gutter={16}>
                         <Col  xs={14} md={4}>
+                            <a href='/' className=''>
                           <div className="flex justify-start items-center w-full h-full"	>
-                            <a href='/'>
                               <Image src={Logo} className='header__logo' alt='Полиграфия в Волгограде'/>
-                            </a>
+						<div className='flex flex-col ml-2 py-1'>
+							<span className='text-base text-gray-600 leading-none'><b>ОБЕРЕГ</b></span>
+							<hr />
+							<span className='text-xs text-gray-600 leading-none'>Пансионат</span>
+						</div>
                           </div>
+                            </a>
                         </Col>
 
                         <Col span={17} className='!hidden md:!block'>
