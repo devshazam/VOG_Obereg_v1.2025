@@ -19,7 +19,7 @@ export default function MainBackground() {
               <div className="flex justify-start items-center h-70 md:h-full py-6">
                 <div className="">
                	<TransitionTextComp />
-                  	<Text>Пансионат для малоподвижных пациентов и все это время мы изо всех сил стараемся угодить клиентским запросам на высшем уровне!</Text>
+                  	<Text>Пансионат для малоподвижных пациентов, пациентов с деменцией, реабилитация после инсульта и перелома шейки бедра!</Text>
                 </div>
               </div>
             </Col>

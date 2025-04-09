@@ -7,10 +7,10 @@ interface CardProps {
   src: StaticImageData,
   alt: string,
   title: string,
-  text: string,
+  text?: string,
 }
 
-export default function Card({src, alt, title, text}: CardProps) {
+export default function Card({src, alt, title}: CardProps) {
 
 
   return (
@@ -18,9 +18,6 @@ export default function Card({src, alt, title, text}: CardProps) {
       <Image src={src} alt={alt} className='tarifs__image-tarif' sizes="100vw"/>
             <div className='mySwiper__wrapper-text'>
               <p>{title}</p>
-              <p>{text}</p>
-              <hr />
-              <p>⭐⭐⭐⭐⭐</p>
             </div>
           </div>
 

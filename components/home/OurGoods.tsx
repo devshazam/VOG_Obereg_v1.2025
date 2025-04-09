@@ -5,18 +5,18 @@ import { motion } from "framer-motion";
 
 
 const ARROFSVG = [
-	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
-	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
-	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
-	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
-	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
-	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
-	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
-	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
-	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
-	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
-	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
-	['/icons8-hospital-bed-50', 'Визитки', 'Новая кровать'], 
+	['/voices/icons8-ambulance-100.png', 'Визитки', 'Трансфер'], 
+	['/voices/icons8-bread-and-rye-100.png', 'Визитки', 'Диета'], 
+	['/voices/icons8-walk-100.png', 'Визитки', 'Прогулки'], 
+	['/voices/icons8-doctor-100.png', 'Визитки', 'Врач рядом'], 
+	['/voices/icons8-clean-100.png', 'Визитки', 'Влажная уборка'], 
+	['/voices/icons8-care-100.png', 'Визитки', 'Забота'], 
+	['/voices/icons8-bed-100.png', 'Визитки', 'Новое белье'], 
+	['/voices/icons8-entertainment-100.png', 'Визитки', 'Развлечения'], 
+	['/voices/icons8-bathing-60.png', 'Визитки', 'Помощь в бане'], 
+	['/voices/icons8-stargaze-100.png', 'Визитки', 'Наблюдение'], 
+	['/voices/icons8-aerobics-100.png', 'Визитки', 'Аэробика'], 
+	['/voices/icons8-sun-100.png', 'Визитки', 'Климат'], 
                //    ['plackaty', '/banner', 'Банеры', 'изготовление баннеров'],
                //    ['naklejki', '/samokleyki', 'Самоклейки', 'изготовление наклеек'],
                //    ['listovki', '/posterka', 'Постеры', 'изготовление постеров'],
@@ -47,7 +47,7 @@ export default function OurGoods() {
                           {/* <a href={item[1]}> */}
                             <p style={{fontSize:'11px'}}>{item[2]}</p>
                             <div className="template__img-wrap">
-                              <img src={`/good${item[0]}.png`} alt={item[3]}  className="goods__image" />
+                              <img src={item[0]} alt={item[3]}  className="goods__image" />
                             </div>
                           {/* </a> */}
                       </motion.div>

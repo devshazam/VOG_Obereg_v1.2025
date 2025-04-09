@@ -1,12 +1,12 @@
 'use client'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import  review1 from '../../public/voices/1.jpg';
-import  review2 from '../../public/voices/review2.webp';
-import  review3 from '../../public/voices/review3.webp';
-import  review4 from '../../public/voices/review4.webp';
-import  review5 from '../../public/voices/review5.webp';
-import  review6 from '../../public/voices/review6.webp';
+import  review1 from '../../public/days/1.webp';
+import  review2 from '../../public/days/2.webp';
+import  review3 from '../../public/days/3.jpeg';
+import  review4 from '../../public/days/4.jpeg';
+import  review5 from '../../public/days/5.jpeg';
+import  review6 from '../../public/days/6.jpeg';
 
 import Card from '../ui/Card';
 import 'swiper/css';
@@ -61,23 +61,23 @@ export default function CarrouselWork() {
           >
 
             <SwiperSlide>
-              <Card src={review1} alt='отзыв о такси #1' title='Измайлов Р.Л.' text='yandex.com'/>
+              <Card src={review1} alt='отзыв о такси #1' title='Ужин' />
             </SwiperSlide>
 
             <SwiperSlide>
-              <Card src={review1} alt='отзыв о такси #2' title='Торопов Х.В.' text='google.com'/>
+              <Card src={review2} alt='отзыв о такси #2' title='Камин'/>
             </SwiperSlide>
             <SwiperSlide>
-              <Card src={review1} alt='отзыв о такси #3' title='Фарудинов М.К.' text='2gis.ru'/>
+              <Card src={review3} alt='отзыв о такси #3' title='Зал'/>
             </SwiperSlide>
             <SwiperSlide>
-              <Card src={review1} alt='отзыв о такси #4' title='Карпов К.К.' text='yandex.com'/>
+              <Card src={review4} alt='отзыв о такси #4' title='Завтрак' />
             </SwiperSlide>
             <SwiperSlide>
-              <Card src={review1} alt='отзыв о такси #5' title='Бельский Ю.Д.' text='taxi.yandex.com'/>
+              <Card src={review5} alt='отзыв о такси #5' title='Прогулка' />
             </SwiperSlide>
             <SwiperSlide>
-              <Card src={review1} alt='отзыв о такси #6' title='Петров Л.Н.' text='yandex.com'/>
+              <Card src={review6} alt='отзыв о такси #6' title='Полдник' />
             </SwiperSlide>
           </Swiper>
           </div>

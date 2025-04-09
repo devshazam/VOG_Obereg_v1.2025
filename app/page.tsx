@@ -32,9 +32,9 @@ export default function Home() {
 	 <CarrouselWork />
 	 <MainTarifs />
 
-      <section id='loyalty' className='loyalty'>
         <FormComponent />
-      </section>
+      {/* <section id='loyalty' className='loyalty'>
+      </section> */}
 
       <section id='portfolio' className='tarifs'>
         <div className="template__wrapper">

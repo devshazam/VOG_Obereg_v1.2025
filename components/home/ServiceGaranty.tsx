@@ -26,7 +26,7 @@ export default function ServiceGaranty() {
           <div className="wrap-top-content">
             <div className="top-contene">
               <h2 className='section-grey_h2'>Гарантии высокого сервиса</h2>
-              <p className='section-grey_text'>Любой текст в рамках зажанной lkbyys Lorem ipsum dolor sit amet consectetur adipisicing elit.!</p>
+              <p className='section-grey_text'>Мы понимаем как важен каждый пациент для своей семьи и мы делаем все возможное, чтобы вы остались довольны!</p>
             </div>
           </div>
           <Row className='first-top-padding '>
@@ -39,10 +39,10 @@ export default function ServiceGaranty() {
               viewport={{ once: true, amount: 0.8 }}
                 > 
                   <motion.div variants={cardVariants} >
-                    <Image src='/icons8-ambulance-100.png' width='100' height='100' alt='такси по России' />
+                    <Image src='/service/icons8-ambulance-100.png' width='120' height='120' alt='такси по России' />
                   </motion.div>
                   <p className='service__title'>Скорая помощь</p>
-                  <p>Любой текст по вашему желанию, но в рамках заданной длинны. Lorem, ipsum.</p>
+                  <p>Мы заботимся о здоровье наших пациентов и постоянно следим за их сосстоянием.</p>
               </motion.div>
             </Col>
             <Col xs={24} md={8}>
@@ -53,10 +53,10 @@ export default function ServiceGaranty() {
               viewport={{ once: true, amount: 0.8 }}
                 > 
                  <motion.div variants={cardVariants} >
-                    <Image src='/icons8-ambulance-100.png' width='100' height='100' alt='такси по России' />
+                    <Image src='/service/icons8-nurse-100.png' width='120' height='120' alt='такси по России' />
                   </motion.div>
-                  <p className='service__title'>Скорая помощь</p>
-                  <p>Любой текст по вашему желанию, но в рамках заданной длинны. Lorem, ipsum.</p>
+                  <p className='service__title'>Профессионализм</p>
+                  <p>Мы действуем в соответствии с высокими профессиональными стандартами.</p>
 			   </motion.div>
             </Col>
             <Col xs={24} md={8}>
@@ -67,10 +67,10 @@ export default function ServiceGaranty() {
               viewport={{ once: true, amount: 0.8 }}
                 > 
 			<motion.div variants={cardVariants} >
-                    <Image src='/icons8-ambulance-100.png' width='100' height='100' alt='такси по России' />
+                    <Image src='/service/icons8-last-24-hours-100.png' width='120' height='120' alt='такси по России' />
                   </motion.div>
-                  <p className='service__title'>Скорая помощь</p>
-                  <p>Любой текст по вашему желанию, но в рамках заданной длинны. Lorem, ipsum.</p>
+                  <p className='service__title'>Мониторинг 24/7</p>
+                  <p>Мы радом с нашими пациентами 24 часа в сутки и 7 дней в неделю.</p>
 			   </motion.div>
             </Col>
           </Row>
