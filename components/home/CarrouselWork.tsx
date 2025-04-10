@@ -30,7 +30,7 @@ export default function CarrouselWork() {
           <div className="template__indent">
           <Title level={2} className='sub-title'>Будни клиентов:</Title>
           <Swiper
-            slidesPerView={2}
+            slidesPerView={1.5}
             spaceBetween={10}
             
             // pagination={{

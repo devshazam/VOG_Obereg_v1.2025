@@ -16,7 +16,7 @@ export default function Footer() {
             <div className="footer__content-wrapper">
                 <p><b>Документы:</b></p>
                 <ul>
-                  <li><a href='/oferta'>Договор оферты</a></li>
+                  <li><a href='/oferta'>Политика</a></li>
                 </ul>
               </div>
             </Col>

@@ -15,7 +15,9 @@ export default function MainBackground() {
     <section className="banner">
         <div className="template__wrapper">
           <Row className="" gutter={16}>
-            <Col xs={24} md={12} className='!hidden md:!block'>
+            {/* <Col xs={24} md={12} className='!hidden md:!block'> */}
+            <Col xs={24} md={12} >
+
               <div className="flex justify-start items-center h-70 md:h-full py-6">
                 <div className="">
                	<TransitionTextComp />
@@ -23,7 +25,9 @@ export default function MainBackground() {
                 </div>
               </div>
             </Col>
-            <Col xs={24} md={12} className='!hidden md:!block'>
+            {/* <Col xs={24} md={12} className='!hidden md:!block'> */}
+		  <Col xs={24} md={12} >
+		  
 		  	<div className="p-8">
               <Image alt="КопиПринт34" src={bannerImage}  style={{ width: '100%', height: 'auto'}} className="banner__img" />
 		    </div>

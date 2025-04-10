@@ -13,28 +13,7 @@ import {MenuOutlined} from '@ant-design/icons';
 
 type MenuItem = Required<MenuProps>['items'][number];
 
-const items: MenuItem[] = [
-  {
-    label: <a href="/#poligrafia">Гарантии</a>,
-    key: 'poligrafia',
-    icon: <ReadOutlined />,
-},
-{
-	label: <a href="/#poligrafia">Услуги</a>,
-    key: 'kopirovanie',
-    icon: <ReadOutlined />,
-  },
-  {
-    label: <a href="/#poligrafia">Фотографии</a>,
-    key: 'pechat',
-    icon: <ReadOutlined />,
-  },
-  {
-    label: <a href="/#poligrafia">Цены</a>,
-    key: 'izdeliya',
-    icon: <ReadOutlined />,
-  },
-];
+
 
 
 export default function Header() {
@@ -47,6 +26,30 @@ export default function Header() {
 	const onClose = () => {
 	  setOpen(false);
 	};
+
+
+	const items: MenuItem[] = [
+		{
+			label: <a href="/#goods" onClick={() => onClose()}>Услуги</a>,
+			key: 'kopirovanie',
+			icon: <ReadOutlined />,
+		},
+		{
+		  label: <a href="/#portfolio" onClick={() => onClose()}>Фотографии</a>,
+		  key: 'poligrafia',
+		  icon: <ReadOutlined />,
+	   },
+		{
+			label: <a href="/#tarifs" onClick={() => onClose()}>Цены</a>,
+		  key: 'izdeliya',
+		  icon: <ReadOutlined />,
+		},
+		{
+			label: <a href="/#contacts" onClick={() => onClose()}>Контакты</a>,
+			key: 'pechat',
+			icon: <ReadOutlined />,
+		},
+	];
 
   return (
 	<header>

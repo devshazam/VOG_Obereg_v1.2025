@@ -17,7 +17,7 @@ export default function Home() {
 		
       <MainBackground/>
     
-      <section id='goods' className='bg-gray-100'>
+      <section id='garanty' className='bg-gray-100'>
     		<ServiceGaranty />
       </section> 
 

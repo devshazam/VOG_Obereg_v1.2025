@@ -35,7 +35,7 @@ export default function MainTarifs() {
               <a title={"phone"} href={"tel:+79608904501"}  style={{ color: '#000', fontSize: "28px"}} className='phone-ya'  rel="nofollow">
 		    +7 (960) 890-45-01
               </a>
-              <p style={{ color: '#000', fontSize: "12px"}}>Мы всегда на связи! Мы готовы подъехать в любую точку области и забрать Вас, или доставить посылку. <b>Звоните, Все персонально и анонимно.</b></p>
+              <p style={{ color: '#000', fontSize: "12px"}}>Мы всегда на связи! Мы готовы подъехать в любую точку Волгограда и забрать вас. <b>Звоните, Все персонально и анонимно.</b></p>
           </div>
           <Button  variant="solid" color='primary'style={{backgroundColor: '#ffd913', color: '#000', width: '100%', textAlign: 'center'}} className='mb-3'> 
               <a title={"Telegramm"} href={"https://t.me/+79608904501"} target="_blank" className='phone-ya'>

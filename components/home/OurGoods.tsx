@@ -36,7 +36,7 @@ export default function OurGoods() {
 					
   	return (
         <>
-          <Title  level={2}>Включено в стоимость:</Title>
+          <Title  level={2}>Включено<span className='!hidden md:!inline'> в стоимость</span>:</Title>
           <Row gutter={16}>
             {
               ARROFSVG.map((item: string[], index: number) => {return (
